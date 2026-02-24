@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervecería Ñanco | El Sabor de la Naturaleza</title>
+    <meta name="description"
+        content="Bienvenido a Ñanco, donde la tradición artesanal se encuentra con el sabor puro. Descubre nuestras cervezas y nuestra historia.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="#" class="logo">CERVECERÍA <span>ÑANCO</span></a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Pureza en cada Trago.</h1>
+                <p>Elaboramos cervezas artesanales con ingredientes locales, inspirados en la majestuosidad del Ñanco.
+                </p>
+                <a href="#productos" class="btn-primary">Ver Cervezas</a>
+            </div>
+        </section>
+
+        <section id="nosotros" class="owners-section">
+            <div class="container">
+                <div class="section-grid">
+                    <div class="owners-img fade-in">
+                        <img src="https://images.unsplash.com/photo-1558235924-99692bb22d71?auto=format&fit=crop&q=80&w=800"
+                            alt="Dueños de la cervecería Ñanco">
+                    </div>
+                    <div class="owners-text fade-in">
+                        <h2>Nuestra Pasión</h2>
+                        <p>Somos un equipo de amigos apasionados por la cultura cervecera. Ñanco nació de un sueño en el
+                            corazón de las montañas, buscando recuperar la esencia de lo artesanal.</p>
+                        <p>Cada una de nuestras recetas ha sido perfeccionada durante años para ofrecerte una
+                            experiencia única en cada botella. No solo hacemos cerveza, creamos momentos.</p>
+                        <p><strong>- Nico y Lore</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="products-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Nuestras Cervezas</h2>
+                    <p>Una selección premium para los paladares más exigentes.</p>
+                </div>
+
+                <div class="product-grid">
+                    <div class="product-card fade-in">
+                        <div class="product-img" style="background-image: url('assets/img/Birratirada.jpeg')">
+                        </div>
+                        <div class="product-info">
+                            <h3>Golden Ale Clásica</h3>
+                            <p class="product-price">$1.200</p>
+                            <p>Refrescante, balanceada y con un sutil aroma a malta.</p>
+                            <button class="btn-buy">Conocer mas</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-img" style="background-image: url('assets/img/Birratirada2.jpeg');">
+                        </div>
+                        <div class="product-info">
+                            <h3>IPA del Sur</h3>
+                            <p class="product-price">$1.500</p>
+                            <p>Intensa carga de lúpulo con notas cítricas y resinosas.</p>
+                            <button class="btn-buy">Conocer mas</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-img" style="background-image: url('assets/img/PintaMano.jpeg');">
+                        </div>
+                        <div class="product-info">
+                            <h3>Stout Nocturna</h3>
+                            <p class="product-price">$1.400</p>
+                            <p>Cuerpo robusto con notas a café, chocolate y cebada tostada.</p>
+                            <button class="btn-buy">Conocer mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="owners-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>¿Hablamos?</h2>
+                    <p>Estamos aquí para escucharte o ayudarte con tu pedido.</p>
+                </div>
+                <div class="fade-in" style="max-width: 600px; margin: 0 auto;">
+                    <form id="contact-form" style="display: grid; gap: 1rem;">
+                        <input type="text" placeholder="Nombre" required
+                            style="padding: 1rem; border-radius: 10px; border: 1px solid #ddd;">
+                        <input type="email" placeholder="Email" required
+                            style="padding: 1rem; border-radius: 10px; border: 1px solid #ddd;">
+                        <textarea placeholder="Mensaje" rows="5" required
+                            style="padding: 1rem; border-radius: 10px; border: 1px solid #ddd;"></textarea>
+                        <button type="submit" class="btn-primary" style="border: none; cursor: pointer;">Enviar
+                            Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-logo">ÑANCO</h3>
+                    <p>Cerveza artesanal de origen.</p>
+                </div>
+                <div>
+                    <h4>Explorar</h4>
+                    <ul style="margin-top: 1rem;">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Seguinos</h4>
+                    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Untappd</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cervecería Ñanco. Hecho con pasión.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
